@@ -1,3 +1,6 @@
+------------
+first_resource
+
 Initialize
 $ terraform init
 
@@ -10,4 +13,11 @@ $ terraform apply
 Delete resource 
 $ terraform destroy
 
+------------
+variables
+
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/vpc
+eg: aws_vpc.myvpc.id or aws_vpc.myvpc.arn
+
+------------
 
