@@ -20,4 +20,10 @@ https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/v
 eg: aws_vpc.myvpc.id or aws_vpc.myvpc.arn
 
 ------------
+challenge1
+
+Create a VPC named TerraformVPC
+CIDR Range: 192.168.0.0/24
+
+------------
 
