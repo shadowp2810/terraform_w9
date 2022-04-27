@@ -34,3 +34,13 @@ https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/inst
 eip Elastic IP
 
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip
+
+------------
+sg Security Group
+stateless involves setting an inbound and outbound rule to ensure flow of traffic.
+Is stateful: Return traffic is automatically allowed, regardless of any rules
+Is stateless: Return traffic must be explicitly allowed by rules
+
+------------
+
+
