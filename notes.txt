@@ -1,0 +1,13 @@
+Initialize
+$ terraform init
+
+Check state
+$ terraform plan
+
+Execute the terraform script
+$ terraform apply
+
+Delete resource 
+$ terraform destroy
+
+
