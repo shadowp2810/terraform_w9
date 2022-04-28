@@ -65,6 +65,14 @@ challenge3_modules
 Modularise challenge2
 
 ------------
+iam
+Its recommended to make the policy from console and copy the JSON
+EOF stands from End Of File and will contain the JSON policy
+There is a limit to size of JSON policy, so will need to split files if too long. 
+
+------------
+
+
 
 
 
