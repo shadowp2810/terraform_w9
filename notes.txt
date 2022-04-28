@@ -111,5 +111,12 @@ Instead of creating multiple terraform files for each environment,
 we can instead have variable files. 
 
 ------------
+import 
+With import we can bring in control of resources not managed by terraform but active on console into control of terraform. 
+eg: for a vpc that we create on console, we specify same in tf file,
+    then in command line "$ terraform import aws_vpc.<NAME OF VPC> <VPC RESOURCE ID>"
+
+------------
+    
 
 
