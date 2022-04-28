@@ -106,5 +106,10 @@ count_adv
 One use case is inaddition to setting a count, can set multiple server names from a list.
 
 ------------
+vars 
+Instead of creating multiple terraform files for each environment, 
+we can instead have variable files. 
+
+------------
 
 
