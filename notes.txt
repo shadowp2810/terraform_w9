@@ -91,6 +91,13 @@ Leaving access_key and secret_key blank will prompt you to enter it when we run 
 On mac or linux we can use "$ cat ~/.aws/credentials" to find our access_key and secret_key
 
 ------------
+dep Dependencies
+Suppose we have a tf file where we have are builing multiple ec2 instances,
+and we need db server to build before web server, 
+we can specify in web server "depends_on = [aws_instance.db]"
+One of the common use cases is for EIP for an EC2 instance as it may take longer to provision. 
+
+------------
 
 
 
