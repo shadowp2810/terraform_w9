@@ -102,5 +102,9 @@ count_demo
 Helps us create multiple resources
 
 ------------
+count_adv
+One use case is inaddition to setting a count, can set multiple server names from a list.
+
+------------
 
 
