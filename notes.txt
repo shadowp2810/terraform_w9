@@ -47,6 +47,16 @@ Allows us to go through a list and turn every element into tf code.
 One use case is to interate though a list of ports to allow in a security group.
 
 ------------
+challenge2 ec2
+Create a DB server and output the private IP.
+Create a web server and ensure it has a fixed public IP.
+Create a security group for the web server, opening ports 80 and 443.
+Run the provided scripts on the web server. 
+
+------------
+
+
+
 
 
 
