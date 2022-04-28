@@ -13,6 +13,10 @@ $ terraform apply
 Delete resource 
 $ terraform destroy
 
+CIDR IP quantity = (2 ^ (32 - n)) - 5
+eg: 10.0.0.0/16 where we n is 16, so we have 65531 
+    255 * 255 = 65025
+    Range = 10.0.0.0 - 10.0.255.255
 ------------
 variables
 
@@ -78,7 +82,15 @@ and identifier is unique name for the instance eg: prod-customer-db-server.
 username and password should ideally be in a secrets manager like vault and be injected when needed.
 skip_final_spanshot must be set to true, and during destroy it will try and take spanshot and fail.
 
+------------
+backend
+The state file is a very important in terraform. Loosing it will disasterours. 
+We can store it in S3.
+key specifies the location and file name, "terraform/tfstate.tfstate".
+Leaving access_key and secret_key blank will prompt you to enter it when we run the tf file. 
+On mac or linux we can use "$ cat ~/.aws/credentials" to find our access_key and secret_key
 
+------------
 
 
 
