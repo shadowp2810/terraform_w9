@@ -117,6 +117,12 @@ eg: for a vpc that we create on console, we specify same in tf file,
     then in command line "$ terraform import aws_vpc.<NAME OF VPC> <VPC RESOURCE ID>"
 
 ------------
-    
+data_sources
+Data Sources are a way to query aws and get a result.
+It makes an API request to get information.
+We can use it for amis, backups, users, ...
+We specify the data filter and output
+"$ terraform apply -auto-approve"
 
+------------
 
