@@ -71,8 +71,12 @@ EOF stands from End Of File and will contain the JSON policy
 There is a limit to size of JSON policy, so will need to split files if too long. 
 
 ------------
-
-
+rds 
+Going through the aws console setup for rds will give us a better idea of all the fields we need to set in terraform. 
+name is the database name eg: customers, 
+and identifier is unique name for the instance eg: prod-customer-db-server. 
+username and password should ideally be in a secrets manager like vault and be injected when needed.
+skip_final_spanshot must be set to true, and during destroy it will try and take spanshot and fail.
 
 
 
