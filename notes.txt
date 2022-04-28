@@ -42,5 +42,13 @@ Is stateful: Return traffic is automatically allowed, regardless of any rules
 Is stateless: Return traffic must be explicitly allowed by rules
 
 ------------
+dynamic Dynamic Blocks
+Allows us to go through a list and turn every element into tf code. 
+One use case is to interate though a list of ports to allow in a security group.
+
+------------
+
+
+
 
 
