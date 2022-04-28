@@ -98,6 +98,9 @@ we can specify in web server "depends_on = [aws_instance.db]"
 One of the common use cases is for EIP for an EC2 instance as it may take longer to provision. 
 
 ------------
+count_demo
+Helps us create multiple resources
 
+------------
 
 
