@@ -61,8 +61,10 @@ Terraform registry has community modules we can use.
 https://registry.terraform.io/
 
 ------------
+challenge3_modules
+Modularise challenge2
 
-
+------------
 
 
 
