@@ -54,7 +54,13 @@ Create a security group for the web server, opening ports 80 and 443.
 Run the provided scripts on the web server. 
 
 ------------
+Modules
+A module is a forewarder with code inside it. 
+Allows to extend the functionality of terraform to reuse code. 
+Terraform registry has community modules we can use. 
+https://registry.terraform.io/
 
+------------
 
 
 
